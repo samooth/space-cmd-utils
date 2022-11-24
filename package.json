@@ -1,11 +1,11 @@
 {
   "name": "hyper-cmd-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "HyperCmd Utils",
   "main": "index.js",
   "dependencies": {
-    "@hyper-cmd/lib-keys": "https://github.com/prdn/hyper-cmd-lib-keys#v0.0.1",
-    "@hyperswarm/dht": "^6.2.0",
+    "@hyper-cmd/lib-keys": "https://github.com/prdn/hyper-cmd-lib-keys",
+    "@hyperswarm/dht": "^6.3.2",
     "minimist": "^1.2.5"
   },
   "devDependencies": {},
