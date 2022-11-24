@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitfinexcom/hyper-cmd-utils.git"
+    "url": "https://github.com/prdn/hyper-cmd-utils.git"
   },
   "author": "Paolo Ardoino (@prdn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitfinexcom/hyper-cmd-utils/issues"
+    "url": "https://github.com/prdn/hyper-cmd-utils/issues"
   },
-  "homepage": "https://github.com/bitfinexcom/hyper-cmd-utils"
+  "homepage": "https://github.com/prdn/hyper-cmd-utils"
 }
