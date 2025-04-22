@@ -1,25 +1,31 @@
 {
-  "name": "hyper-cmd-utils",
-  "version": "1.0.0",
-  "description": "HyperCmd Utils",
+  "name": "space-cmd-utils",
+  "version": "0.0.1",
+  "description": "SpaceCmd Utils",
   "main": "index.js",
   "dependencies": {
-    "@hyper-cmd/lib-keys": "https://github.com/holepunchto/hyper-cmd-lib-keys",
-    "hyperdht": "^6.5.2",
+    "space-cmd-lib-keys": "latest",
+    "spacedht": "latest",
     "minimist": "^1.2.5"
   },
   "devDependencies": {},
   "bin": {
-    "hyper-cmd-util-keygen": "./keygen.js"
+    "space-cmd-util-keygen": "./keygen.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/holepunchto/hyper-cmd-utils.git"
+    "url": "https://github.com/samooth/hyper-cmd-utils.git"
   },
   "author": "Paolo Ardoino (@prdn)",
+  "contributors": [
+    {
+      "name": "Tomás Díaz",
+      "email": "tomas@bsv.direct"
+    }
+  ],  
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/holepunchto/hyper-cmd-utils/issues"
+    "url": "https://github.com/samooth/hyper-cmd-utils/issues"
   },
-  "homepage": "https://github.com/holepunchto/hyper-cmd-utils"
+  "homepage": "https://github.com/samooth/hyper-cmd-utils"
 }

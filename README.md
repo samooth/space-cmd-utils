@@ -1,9 +1,9 @@
-# hyper-cmd-utils
+# space-cmd-utils
 
 ### keygen
 
 ```
-hyper-cmd-util-keygen --help
+space-cmd-util-keygen --help
 ```
 
 ```

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const HyperDHT = require('hyperdht')
+const HyperDHT = require('spacedht')
 const fs = require('fs')
 const argv = require('minimist')(process.argv.slice(2))
-const libKeys = require('@hyper-cmd/lib-keys')
+const libKeys = require('space-cmd-lib-keys')
 
 function storeKeyPair (k) {
   return JSON.stringify({
@@ -11,7 +11,7 @@ function storeKeyPair (k) {
   })
 }
 
-const helpMsg = 'Usage:\nhyper-cmd-util-keygen --gen_seed | --gen_keypair filename.json'
+const helpMsg = 'Usage:\nspace-cmd-util-keygen --gen_seed | --gen_keypair filename.json'
 
 if (argv.gen_seed) {
   console.log('Seed:', libKeys.randomBytes(32).toString('hex'))
